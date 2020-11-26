@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-여기에 자기 이름 적어주시고 커밋해주세용
+유용래
 </body>
 </html>
