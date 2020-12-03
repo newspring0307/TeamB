@@ -18,6 +18,7 @@
 			<link rel="stylesheet" href="css/style.css">
 			<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 			<link href="https://assets.moredates.com/theme/moredates/styles.min.css?v=1606817545" rel="stylesheet">
+			<!-- ì´ë¶€ë¶„ì„ ì§€ìš°ë©´ header ì´ ì •ìƒìœ¼ë¡œëŒì•„ì˜´ ê·¸ëŒ€ì‹  infoCenterì˜ cssê°€ ì•ˆë¨¹íž˜ -->
 
 			<script src="js/modernizr-2.6.2.min.js"></script>
 			<script
@@ -40,90 +41,90 @@
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="#" style="color:#1C1185"><span>ÆÃÀÌ¶õ?</span></a></li>
+		            <li><a href="#" style="color:#1C1185"><span>íŒ…ì´ëž€?</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>Team</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>ÆÃÅõÇÏÀÚ!</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>ÇÁ¸®¹Ì¾ö</span></a></li>
+		            <li><a href="#" style="color:#1C1185"><span>íŒ…íˆ¬í•˜ìž!</span></a></li>
+		            <li><a href="#" style="color:#1C1185"><span>í”„ë¦¬ë¯¸ì—„</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>FUN</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>¹®ÀÇ</span></a></li>
-					<li><button class="ui inverted button" id="login" style="margin:6px;">·Î±×ÀÎ</button></li>
-					<li><button class="ui inverted button" id="register" style="margin:6px;">È¸¿ø°¡ÀÔ</button></li>
+		            <li><a href="#" style="color:#1C1185"><span>ë¬¸ì˜</span></a></li>
+					<li><button class="ui inverted button" id="login" style="margin:6px;">ë¡œê·¸ì¸</button></li>
+					<li><button class="ui inverted button" id="register" style="margin:6px;">íšŒì›ê°€ìž…</button></li>
 			      </ul>
 		        </div>
 		    </div>
 	</header>
 <!---------------------------------- header end ---------------------------------->
 
-<!--¿©±â¿¡ ³»¿ë ³ÖÀ¸¼¼¿ä-->
+<!--ì—¬ê¸°ì— ë‚´ìš© ë„£ìœ¼ì„¸ìš”-->
 
 	<div style="margin:0 auto ;width: 900px">
 			<div id="mainContainer" class="container">
 				<div class="twoColumn">
 					<section class="mainCol">
 					<br><br>
-					<!-- ³ªÀÇ ÇÁ¸®¹Ì¾ö -->
+					<!-- ë‚˜ì˜ í”„ë¦¬ë¯¸ì—„ -->
 				<div class="infoCenter"> 
-					<h1>ÀÎ±â±Û tingToday TOP</h1><br>
+					<h1>ì¸ê¸°ê¸€ tingToday TOP</h1><br>
 					<ul class="notifications count-3">
 
 					<li class="primary">
 					<a class="notification" href="#" >
-							<br><br><br><br><h2 style="color:white">¢¾ÇÏ¢¾ÇÏ¢¾</h2></a></li>
+							<br><br><br><br><h2 style="color:white">â™¥í•˜â™¥í•˜â™¥</h2></a></li>
 					<li class="primary">
 					<a class="notification" href="#" >
-							<br><br><br><br><h2 style="color:white">¢¾±è¢¾¼ö¢¾È¯</h2></a></li>
+							<br><br><br><br><h2 style="color:white">â™¥ê¹€â™¥ìˆ˜â™¥í™˜</h2></a></li>
 					<li class="primary">
 					<a class="notification" href="#" >
-							<br><br><br><br><h2 style="color:white">¢¾¼ö¢¾È¯¢¾½Ü</h2></a></li>
+							<br><br><br><br><h2 style="color:white">â™¥ìˆ˜â™¥í™˜â™¥ìŒ¤</h2></a></li>
 					<li class="primary">
 					<a class="notification" href="#" >
-							<br><br><br><br><h2 style="color:white">¢¾ÇÏ¢¾ÇÏ¢¾</h2></a></li>
+							<br><br><br><br><h2 style="color:white">â™¥í•˜â™¥í•˜â™¥</h2></a></li>
 					<li class="primary">
 					<a class="notification" href="#" >
-							<br><br><br><br><h2 style="color:white">¢¾ÇÏ¢¾ÇÏ¢¾</h2></a></li>
+							<br><br><br><br><h2 style="color:white">â™¥í•˜â™¥í•˜â™¥</h2></a></li>
 
 					</ul>
 				</div>
 
 <!----------------------------------------------------------------------------------------->
 <br><br>
-<!--°Ô½ÃÆÇ ÇØ´õ-->
+<!--ê²Œì‹œíŒ í•´ë”-->
 	<header>
-	<h1 align="center">TingToday °Ô½ÃÆÇ</h1>
+	<h1 align="center">TingToday ê²Œì‹œíŒ</h1>
 	</header>
-<!--°Ô½ÃÆÇ ÇØ´õ-->
+<!--ê²Œì‹œíŒ í•´ë”-->
 <br><br>
-<!--°Ô½ÃÆÇ Å×ÀÌºí-->
+<!--ê²Œì‹œíŒ í…Œì´ë¸”-->
 	<div class = "TingToday_list" style="padding-left: 10%;padding-right: 10%;">
 		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;padding: 20%;">
 			<thead>
 				<tr>						
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">±Û¹øÈ£</th>
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">±¸ºÐ</th>
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">Á¦¸ñ</th>
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ÁÁ¾Æ¿ä</th>	
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ÀÛ¼ºÀÚ</th>
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ÀÛ¼ºÀÏÀÚ</th>						
-					<th style="text-align: center;border-right: 1px solid #eeeeee;"">Á¶È¸¼ö</th>	
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ê¸€ë²ˆí˜¸</th>
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">êµ¬ë¶„</th>
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ì œëª©</th>
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ì¢‹ì•„ìš”</th>	
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ìž‘ì„±ìž</th>
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ìž‘ì„±ì¼ìž</th>						
+					<th style="text-align: center;border-right: 1px solid #eeeeee;"">ì¡°íšŒìˆ˜</th>	
 															
 				</tr>
 			</thead>								
 			<tbody>
 				<tr>
 					<td>-</td>
-					<td>°øÁö»çÇ×</td>
-					<td><a href="Tingtoday_1_detail.html">Á¦Àç ´ë»ó¾È³» °ü·Ã</a></td>
-					<td>535&nbsp;¢¾</td>
-					<td>°ü¸®ÀÚ</td>
-					<td>ÀÛ¼ºÀÏÀÚ</td> 						
+					<td>ê³µì§€ì‚¬í•­</td>
+					<td><a href="Tingtoday_1_detail.html">ì œìž¬ ëŒ€ìƒì•ˆë‚´ ê´€ë ¨</a></td>
+					<td>535&nbsp;â™¥</td>
+					<td>ê´€ë¦¬ìž</td>
+					<td>ìž‘ì„±ì¼ìž</td> 						
 					<td>365</td>					
 				</tr>
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -131,9 +132,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -141,9 +142,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -151,9 +152,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -161,9 +162,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -171,9 +172,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -181,9 +182,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -191,9 +192,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -201,9 +202,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -211,9 +212,9 @@
 
 				<tr>						
 					<td>1</td>
-					<td>ÀÏ»ó</td>
-					<td><a href="#">°Ô½ÃÆÇ ±Û ÀÛ¼º+»ó¼¼º¸±â+¼öÁ¤Àº ÁøÇà Áß</a></td>
-					<td>123&nbsp;¢¾</td>
+					<td>ì¼ìƒ</td>
+					<td><a href="#">ê²Œì‹œíŒ ê¸€ ìž‘ì„±+ìƒì„¸ë³´ê¸°+ìˆ˜ì •ì€ ì§„í–‰ ì¤‘</a></td>
+					<td>123&nbsp;â™¥</td>
 					<td>hoony</td>
 					<td>2020.12.01</td>
 					<td>312</td>
@@ -222,43 +223,43 @@
 			
 			</tbody>
 		</table>			
-		<button class="ui teal button">±Û¾²±â</button>
+		<button class="ui teal button">ê¸€ì“°ê¸°</button>
 	</div>
-<!--°Ô½ÃÆÇ Å×ÀÌºí-->
+<!--ê²Œì‹œíŒ í…Œì´ë¸”-->
 			
-<!-- ¸®¸ðÄÜ			
+<!-- ë¦¬ëª¨ì½˜			
 	<div class="remocon" style="display: block;position: fixed; top: 200px; left: 1690px; z-index: 1000;border: 2px solid #ddd;">						
 		<div class="remocon_main" style="border-bottom:  2px solid #ddd;text-align: center">
-	         <strong>¸®¸ðÄÜ</strong>                    
+	         <strong>ë¦¬ëª¨ì½˜</strong>                    
 	    </div>         
 		<div class="remote_cont" style="padding: 10px;border-bottom:  2px solid #ddd;">
-		 	<a href="#">ÀÎ¿¬ Ã£À¸·¯°¡±â </a>	                        
+		 	<a href="#">ì¸ì—° ì°¾ìœ¼ëŸ¬ê°€ê¸° </a>	                        
 		</div>	        				
 		<div class="ui large buttons">
-		<button class="ui button">´Ý±â</button>
+		<button class="ui button">ë‹«ê¸°</button>
 		<div class="or"></div>
-		<button class="ui button">¸ñ·Ï</button>
+		<button class="ui button">ëª©ë¡</button>
 		</div>	         
 	</div>
-¸®¸ðÄÜ		 -->
+ë¦¬ëª¨ì½˜		 -->
 
-<!--°Ë»öÃ¢Æû-->			
+<!--ê²€ìƒ‰ì°½í¼-->			
 	<form action="#" method="POST" class="form-inline" align="right" style="padding-right: 10%">
 		<div class="input-group" align="right">
 			<p>							
 				<select class="form-control" name="target">
-				<option value="all">ÀüÃ¼</option>
-				<option value="title">Á¦¸ñ</option>
-				<option value="nickname">ÀÛ¼ºÀÚ</option>
+				<option value="all">ì „ì²´</option>
+				<option value="title">ì œëª©</option>
+				<option value="nickname">ìž‘ì„±ìž</option>
 				</select>							
 			<input type="text" class="form-control" name="keyword" value="">			
-			<button class="huge ui button">°Ë»ö</button>				
+			<button class="huge ui button">ê²€ìƒ‰</button>				
 			</p>
 		</div>
 	</form>
-<!--°Ë»öÃ¢Æû-->
+<!--ê²€ìƒ‰ì°½í¼-->
 			
-<!--ÆäÀÌÁö-->			
+<!--íŽ˜ì´ì§€-->			
 	<div class="page_num1" align="center" style="padding:2px;">
 		<ul class="pagination">
 		<li class="page-item"><a class="page-link" href="#"><</a></li>
@@ -275,7 +276,7 @@
 		<li class="page-item"><a class="page-link" href="#">></a></li>
 		</ul>
 	</div>
-<!--ÆäÀÌÁö-->	
+<!--íŽ˜ì´ì§€-->	
 	
 <br><br>	
 <br><br>
@@ -289,9 +290,9 @@
           <h4 class="ui inverted header">company</h4>
           <div class="ui inverted link list">
             <a href="#" class="item">ting Team</a>
-            <a href="#" class="item">tingÀÌ¶õ?</a>
+            <a href="#" class="item">tingì´ëž€?</a>
             <a href="#" class="item">premium</a>
-            <a href="#" class="item">¹®ÀÇÇÏ±â</a>
+            <a href="#" class="item">ë¬¸ì˜í•˜ê¸°</a>
           </div>
         </div>
         <div class="three wide column">
@@ -299,8 +300,8 @@
           <div class="ui inverted link list">
             <a href="#" class="item">ting Today</a>
             <a href="#" class="item">MBTI</a>
-            <a href="#" class="item">¿¬¾ÖÅ×½ºÆ®</a>
-            <a href="#" class="item">ÀÌ»óÇüÅ×½ºÆ®</a>
+            <a href="#" class="item">ì—°ì• í…ŒìŠ¤íŠ¸</a>
+            <a href="#" class="item">ì´ìƒí˜•í…ŒìŠ¤íŠ¸</a>
           </div>
         </div>
 
@@ -308,7 +309,7 @@
           <h4 class="ui inverted header">ting Info</h4>
           <ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address " >
-						<i class="icon-home" ></i>&nbsp;ºÎÃµ½Ã ¼Ò»ç±¸ ½É°îº»µ¿</li>
+						<i class="icon-home" ></i>&nbsp;ë¶€ì²œì‹œ ì†Œì‚¬êµ¬ ì‹¬ê³¡ë³¸ë™</li>
 						<li><i class="icon-phone"></i>&nbsp;(123) 456-789</li>
 						<li><i class="icon-envelope"></i>&nbsp;ting_manager@gmail.com</li>
 			</ul>
