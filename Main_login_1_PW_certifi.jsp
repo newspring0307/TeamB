@@ -3,46 +3,9 @@
 
 <!DOCTYPE html>
  <html class="no-js">
-	<style>
-	.content {
-		width: 700px;
-		margin:0 auto;
-	}
-	
-	.content h2 {
-		font-size: 3em;
-	}
-	
-	.content table {
-		width: 100%;
-		table-layout: fixed;
-		border-collapse: collapse;
-		border-top: 1px solid black;
-		border-bottom: 1px solid #ccc;
-		margin: 10px 0;
-	}
-	
-	.content th, .content td {
-		padding: .5em;
-	}
-	
-	.content th {
-		background-color: #eee;
-	}
-	
-	.content h2+div {
-		font-size: 1.5em;
-		text-align: center;
-		padding: 2em 0;
-	}
-	
-	.content table+div {
-		text-align: right;
-	}
-</style>
 	<head>
 
-		<title>관심리스트</title>
+		<title>기본폼	</title>
 
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
@@ -90,96 +53,23 @@
 <!---------------------------------- header end ---------------------------------->
 
 <!--여기에 내용 넣으세요-->
-
-<div class="box profileHeader" style="padding:100px 0px 0px 0px ">
-
-	<div id="wrapper">
-	    <section>
-	        <div class="content">
-	            <table>
-	              <h2 style="text-align: center;">문의 리스트</h2>
-	              <!-- 스레드, 티바디 새로 추가함 -->
-	              <thead>
-		                <tr>
-		                    <th style="text-align: center;">번호</th>
-		                    <th style="text-align: center;">제목</th>
-		                    <th style="text-align: center;">이름</th>
-		                    <th style="text-align: center;">날짜</th>
-		                </tr>
-		          </thead>
-		          <tbody>
-						<tr>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"><a href="#"></a></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>					
-						</tr>
-				  </tbody>
-				  
-				  
-				  <!-- 스레드, 티바디 새로 추가함 -->
-		                <tr>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                </tr>
-	            </table>
-	            
-	            
-				  <!-- <div class="box profileHeader" style="background-color: red ; text-align: left; margin-right: 580px">
-				 
-						<p><h1>신고 리스트</h1></p>
-				 
-				</div> -->
-	            
-	            
+<div class = "ui container" style="margin:50px; padding-left:350px ">
+ <div class="text-center" style="width: 400px">
+ <form class="ui large form" >
+ <div class="ui stacked segment" >
+ <h1 style="color:#52d3aa;margin:0px;">ting</h1>
+ <h1><span>코드 입력하기</span></h1>
+ <h3>해당 이메일로 인증번호를 보냈습니다<br> 
+인증번호 입력해주세요</h3>
+			<input type="text"  placeholder="코드를 입력하세요" >
+			<div class="field" style="padding-top: 10px">
+		    <div class="ui fluid large teal submit button" id="certfi_num">인증 </div>
 	        </div>
-	    </section>
-	</div>
-</div> 
-	
-	
-	<div class="box profileHeader"  style="padding:100px 0px 100px 0px ">
-	<div id="wrapper">
-	    <section>
-	        <div class="content">
-	            <table>
-	              <h2 style="text-align: center;">신고 리스트</h2>
-	              <!-- 스레드, 티바디 새로 추가함 -->
-	              <thead>
-		                <tr>
-		                    <th style="text-align: center;">번호</th>
-		                    <th style="text-align: center;">제목</th>
-		                    <th style="text-align: center;">이름</th>
-		                    <th style="text-align: center;">날짜</th>
-		                </tr>
-		          </thead>
-		          <tbody>
-						<tr>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"><a href="#"></a></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>
-							<td style="border-right:  1px solid #dddddd;"><font color="black"></font></td>					
-						</tr>
-				  </tbody>
-				  
-				  
-				  <!-- 스레드, 티바디 새로 추가함 -->
-		                <tr>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                    <td>&nbsp;</td>
-		                </tr>
-	            </table>
-	           
-	        </div>
-	    </section>
-	</div>
-</div>
-	
-	
+			</div>
+			
+ </form>
+ </div>
+ </div>
 <!---------------------------------- Footer start ---------------------------------->
 
    <div class="ui inverted vertical footer segment" style="background: linear-gradient(-135deg, #52D3AA, #54FFFF) fixed;">
