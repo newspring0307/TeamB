@@ -27,7 +27,11 @@
 			  crossorigin="anonymous"></script>
 			<script src="js/semantic.min.js"></script>
 
-
+		
+		<style>
+		 a{
+		 font-family:'Jua', sans-serif}	
+		</style>
 	</head>
 
 
