@@ -38,7 +38,7 @@
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="#" style="color:#1C1185"><span>팅이란?</span></a></li>
+		            <li><a href="index.jsp" style="color:#1C1185"><span>팅이란?</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>Team</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>팅투하자!</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>프리미엄</span></a></li>
@@ -85,7 +85,7 @@
 						<h2>30 일</h2>
 						<p>하루 ting Card: 6개</p>
 						<p>+ 플러스플러스 혜택</p>
-						<input class="btn btn-primary btn-lg" value="할인가 2,5000 원" type="button"  id="pay_25000">
+						<input class="btn btn-primary btn-lg" value="할인가 2,5000 원" type="button"  id="pay_25000" onclick="showPopup()">
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -94,7 +94,7 @@
 						<h2>365 일</h2>
 						<p>하루 ting Card: 6개</p>
 						<p>+ 왕플러스 혜택</p>
-						<input class="btn btn-primary btn-lg" value="이벤트특가! 99,000원" type="button"  id="pay_99000">
+						<input class="btn btn-primary btn-lg" value="이벤트특가! 99,000원" type="button"  id="pay_99000" onclick="showPopup()">
 					</div>
 				</div>
 			</div>

@@ -27,19 +27,30 @@
 			  crossorigin="anonymous"></script>
 			<script src="resources/js/semantic.min.js"></script>
 
+	<style>
+		a{
+		 font-family:'Jua', sans-serif
+		}
+		
+		.pagination > li > a{		
+		height: 50px;
+		padding-top: 15px;
+		width: 45px;
+		}
+	</style>
+
 
 	</head>
-
 
 	<body>
 
 	<!---------------------------------- header start ---------------------------------->
 	<header style="background: linear-gradient(-135deg, #52D3AA, #54FFFF) fixed;">
-			<div class="container">
+			<div class="container" style="width: 1155px; height: 55px;">
 			   <div class="navbar-header">
 		         <a class="navbar-brand" href="index.html" style="color:#1C1185">ting</a> 
 		       </div>
-		        <div id="navbar" class="navbar-collapse collapse">
+		        <div id="navbar1" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
 		            <li><a href="#" style="color:#1C1185"><span>팅이란?</span></a></li>
 		            <li><a href="#" style="color:#1C1185"><span>Team</span></a></li>
@@ -54,10 +65,9 @@
 		    </div>
 	</header>
 <!---------------------------------- header end ---------------------------------->
-
 <!--여기에 내용 넣으세요-->
 
-	<div style="margin:0 auto ;width: 900px">
+	<div>
 			<div id="mainContainer" class="container">
 				<div class="twoColumn">
 					<section class="mainCol">
@@ -95,8 +105,8 @@
 <!--게시판 해더-->
 <br><br>
 <!--게시판 테이블-->
-	<div class = "TingToday_list" style="padding-left: 10%;padding-right: 10%;">
-		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;padding: 20%;">
+	<div class = "TingToday_list">
+		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;">
 			<thead>
 				<tr>						
 					<th style="text-align: center;border-right: 1px solid #eeeeee;"">글번호</th>
@@ -113,12 +123,13 @@
 				<tr>
 					<td>-</td>
 					<td>공지사항</td>
-					<td><a href="Tingtoday_1_detail.do">제재 대상안내 관련</a></td>
+					<td><a href="Tingtoday_1_detail.html">제재 대상안내 관련</a></td>
 					<td>535&nbsp;♥</td>
 					<td>관리자</td>
 					<td>작성일자</td> 						
 					<td>365</td>					
 				</tr>
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -128,6 +139,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -137,6 +149,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -146,6 +159,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -155,6 +169,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -164,6 +179,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -173,6 +189,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -182,6 +199,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -191,6 +209,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -200,6 +219,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 				<tr>						
 					<td>1</td>
 					<td>일상</td>
@@ -209,6 +229,7 @@
 					<td>2020.12.01</td>
 					<td>312</td>
 				</tr>	
+
 			
 			</tbody>
 		</table>			
@@ -231,6 +252,7 @@
 		</div>	         
 	</div>
 리모콘		 -->
+
 <!--검색창폼-->			
 	<form action="#" method="POST" class="form-inline" align="right" style="padding-right: 10%">
 		<div class="input-group" align="right">
@@ -248,7 +270,7 @@
 <!--검색창폼-->
 			
 <!--페이지-->			
-	<div class="page_num1" align="center" style="padding:2px;">
+	<div class="page_num1" align="center" style="padding:3px;">
 		<ul class="pagination">
 		<li class="page-item"><a class="page-link" href="#"><</a></li>
 		<li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -258,7 +280,7 @@
 		<li class="page-item"><a class="page-link" href="#">5</a></li>
 		<li class="page-item"><a class="page-link" href="#">6</a></li>
 		<li class="page-item"><a class="page-link" href="#">7</a></li>
-		<li class="page-item"><a class="page-link" href="#">8</a></li>
+		<li class="page-item"><a class="page-link" href="#">8</a></li>	
 		<li class="page-item"><a class="page-link" href="#">9</a></li>
 		<li class="page-item"><a class="page-link" href="#">10</a></li>
 		<li class="page-item"><a class="page-link" href="#">></a></li>
@@ -268,7 +290,9 @@
 	
 <br><br>	
 <br><br>
+
 <!---------------------------------- Footer start ---------------------------------->
+
    <div class="ui inverted vertical footer segment" style="background: linear-gradient(-135deg, #52D3AA, #54FFFF) fixed;">
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
@@ -290,6 +314,7 @@
             <a href="#" class="item">이상형테스트</a>
           </div>
         </div>
+
         <div class="seven wide column">
           <h4 class="ui inverted header">ting Info</h4>
           <ul class="fh5co-contact-info">
