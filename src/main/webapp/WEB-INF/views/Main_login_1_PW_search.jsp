@@ -69,7 +69,8 @@
 					id="recoveryIdentifierId" dir="ltr" data-initial-dir="ltr"
 					data-initial-value="" placeholder="이메일">
 			<div class="field" style="padding-top: 10px">
-		    <div class="ui fluid large teal submit button" id="send_pwmail">인증 메일 보내기</div>
+		    <!-- <div class="ui fluid large teal submit button" id="send_pwmail">인증 메일 보내기</div> -->
+		    <a class="ui fluid large teal submit button" href="#" onclick="location.href='Main_login_1_PW_certifi.jsp'">인증 메일 보내기</a>
 	        </div>
 			</div>
 			

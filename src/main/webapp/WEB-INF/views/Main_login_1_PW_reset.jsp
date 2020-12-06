@@ -81,7 +81,8 @@
 	  </ul>
     </div>
         <div class="field" style="padding-top: 15px">
-           <div class="ui fluid large teal submit button" id="pw_reset">변경하기</div>
+           <a class="ui fluid large teal submit button" href="#" onclick="location.href='Main_login_1_PW_result.jsp'">변경하기</a>
+	        <!-- <div class="ui fluid large teal submit button" id="pw_reset">변경하기</div> -->
       </div>
 	</div>
 

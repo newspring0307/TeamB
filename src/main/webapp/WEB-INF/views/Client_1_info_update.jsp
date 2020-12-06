@@ -518,10 +518,10 @@
 					</div>
 					<div>
 						<div class="fiield" style="float:right; padding: 10px 0px 10px 0px">
-							<div class="btn Submit" id=""><a href="Client_0_main.html">
+							<div class="btn Submit" id=""><a href="Client_0_main.jsp">
 								<h2>저장하기</h2></a>
 							</div>
-							<div class="btn Submit" id=""><a href="Client_0_main.html">
+							<div class="btn Submit" id=""><a href="Client_0_main.jsp">
 								<h2>목록가기</h2></a>
 							</div>
 						</div>

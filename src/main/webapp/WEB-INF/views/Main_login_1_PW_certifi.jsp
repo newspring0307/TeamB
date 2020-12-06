@@ -63,7 +63,8 @@
 인증번호 입력해주세요</h3>
 			<input type="text"  placeholder="코드를 입력하세요" >
 			<div class="field" style="padding-top: 10px">
-		    <div class="ui fluid large teal submit button" id="certfi_num">인증 </div>
+		    <!-- <div class="ui fluid large teal submit button" id="certfi_num">인증 </div> -->
+		    <a class="ui fluid large teal submit button" href="#" onclick="location.href='Main_login_1_PW_reset.jsp'">인증</a>
 	        </div>
 			</div>
 			

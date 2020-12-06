@@ -84,7 +84,7 @@
 					<ul class="notifications count-3">
 
 					<li class="primary">
-					<a class="notification" href="Client_2_Ting_main.html" ><br><i class="fh5co-intro-icon icon-speedometer"></i>
+					<a class="notification" href="Client_2_Ting_main.jsp" ><br><i class="fh5co-intro-icon icon-speedometer"></i>
 							<span class="inner"><br><span class="count">3</span>
 							<br><h2 style="color:white">오늘의 ting (매칭)</h2></span></a></li>
 
@@ -94,7 +94,7 @@
 							<br><h2 style="color:white">새로운 메시지</h2></span></a></li>
 
 					<li class="primary">
-					<a class="notification" href="Client_2_Ting_like.html" ><br><i class="fh5co-intro-icon icon-heart"></i>
+					<a class="notification" href="Client_2_Ting_like.jsp" ><br><i class="fh5co-intro-icon icon-heart"></i>
 							<span class="inner"><br><span class="count">5</span>
 							<br><h2 style="color:white">나의 좋아요 ♥</h2></span></a></li>
 
@@ -118,19 +118,20 @@
 										<div class="form whiteForm aboutMe">
 											<h3>자기 소개</h3><br>
 											<p class="">내용</p>
+											
 										</div>
 									</div>
 								</article>
 								<nav class="profileMenu">
-									<a id=""  class="" href="Client_1_info_update.html"><i class="icon-favoriteOutline"> </i><span>프로필 수정하기</span></a>
-									<a id=""  class="" href="Client_1_info_PWreset1.html"><i class="icon-favoriteOutline"> </i><span>비밀번호 재설정</span></a>
-									<a id=""  class="" href="Client_1_tingtoday_list.html"><i class="icon-kiss"> </i><span>팅투데이 - 나의 작성 글</span></a>
-									<a id=""  class="" href="Client_1_tingtoday_replylist.html"><i class="icon-kiss"> </i><span>팅투데이 - 나의 작성 댓글</span></a>
+									<a id=""  class="" href="Client_1_info_update.jsp"><i class="icon-favoriteOutline"> </i><span>프로필 수정하기</span></a>
+									<a id=""  class="" href="Client_1_info_PWreset1.jsp"><i class="icon-favoriteOutline"> </i><span>비밀번호 재설정</span></a>
+									<a id=""  class="" href="Client_1_tingtoday_list.jsp"><i class="icon-kiss"> </i><span>팅투데이 - 나의 작성 글</span></a>
+									<a id=""  class="" href="Client_1_tingtoday_replylist.jsp"><i class="icon-kiss"> </i><span>팅투데이 - 나의 작성 댓글</span></a>
 
 									<a id=""  class="" href="#"><i class="icon-chat"> </i><span>채팅하기</span></a>
-									<a id=""  class="" href="Client_1_primium.html"><i class="icon-gift"> </i><span>프리미엄</span></a>
-									<a id=""  class="" href="Client_1_payment_list.html"><i class="icon-gift"> </i><span>결제 내역</span></a>
-									<a id=""  class="" href="Client_1_ask_list.html"><i class="icon-block"> </i><span>문의 및 신고</span></a>
+									<a id=""  class="" href="Client_1_primium.jsp"><i class="icon-gift"> </i><span>프리미엄</span></a>
+									<a id=""  class="" href="Client_1_payment_list.jsp"><i class="icon-gift"> </i><span>결제 내역</span></a>
+									<a id=""  class="" href="Client_1_ask_list.jsp"><i class="icon-block"> </i><span>문의 및 신고</span></a>
 								</nav>
 
 							</div>

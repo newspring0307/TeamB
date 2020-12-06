@@ -63,7 +63,8 @@
  <h3>아래의 버튼을 누르시면 로그인페이지로 이동합니다.</h3>
 				
 			<div class="field" style="padding-top: 10px">
-		    <div class="ui fluid large teal submit button" id="">로그인 &gt;&gt;</div>
+		    <a class="ui fluid large teal submit button" href="#" onclick="location.href='Main_login_0.jsp'">로그인 &gt;&gt;</a>
+		    <!-- <div class="ui fluid large teal submit button" id="">로그인 &gt;&gt;</div> -->
 	        </div>
 			</div>
 			

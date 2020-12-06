@@ -74,7 +74,8 @@
 					id="recoveryIdentifierId" dir="ltr" data-initial-dir="ltr"
 					data-initial-value="">
 			<div class="field" style="padding-top: 10px">
-		    <div class="ui fluid large teal submit button" id="go_pwreset">확인</div>
+		    <a class="ui fluid large teal submit button" href="#" onclick="location.href='Client_1_info_PWreset2.jsp'">확인</a>
+		    <!-- <div class="ui fluid large teal submit button" id="go_pwreset">확인</div> -->
 	        </div>
 			</div>
 			
