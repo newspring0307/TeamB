@@ -35,12 +35,12 @@
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="#" style="color:#1C1185"><span>팅이란?</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>Team</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>팅투하자!</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>프리미엄</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>FUN</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>문의</span></a></li>
+		            <li><a href="index.jsp" style="color:#1C1185"><span>팅이란?</span></a></li>
+		            <li><a href="Main_company_1_team.do" style="color:#1C1185"><span>Team</span></a></li>
+		            <li><a href="Tingtoday_0_main.do" style="color:#1C1185"><span>팅투하자!</span></a></li>
+		            <li><a href="Premium_0_main.do" style="color:#1C1185"><span>프리미엄</span></a></li>
+		            <li><a href="Fun_0_main.do" style="color:#1C1185"><span>FUN</span></a></li>
+		            <li><a href="Client_2_Ting_main.do" style="color:#1C1185"><span>문의</span></a></li>
 					<li><button class="ui inverted button" id="login" style="margin:6px;">로그인</button></li>
 					<li><button class="ui inverted button" id="register" style="margin:6px;">회원가입</button></li>
 			      </ul>
@@ -77,7 +77,7 @@
 									<p>나도 몰랐던 나의 연애심리</p>
 									<br />
 									<p>
-										<a href="FUN_2_test1.html" class="btn btn-primary">Click</a>
+										<a href="FUN_2_test1.jsp" class="btn btn-primary">Click</a>
 									</p>
 								</div>
 							</div>
@@ -91,7 +91,7 @@
 									<p>재미로 알아보는 나의 성격 유형</p>
 									<br />
 									<p>
-										<a href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC" 
+										<a href="FUN_1_mbti_1_my.jsp" 
 											class="btn btn-primary">Click</a>
 									</p>
 								</div>
@@ -106,7 +106,7 @@
 									<p>나에게 어울리는 상대는?</p>
 									<br />
 									<p>
-										<a href="FUN_2_test2.html" class="btn btn-primary">Click</a>
+										<a href="FUN_2_test2.jsp" class="btn btn-primary">Click</a>
 									</p>
 								</div>
 							</div>							
