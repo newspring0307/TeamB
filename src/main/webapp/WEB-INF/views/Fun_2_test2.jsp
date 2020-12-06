@@ -34,21 +34,26 @@
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="#" style="color:#1C1185"><span>팅이란?</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>Team</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>팅투하자!</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>프리미엄</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>FUN</span></a></li>
-		            <li><a href="#" style="color:#1C1185"><span>문의</span></a></li>
-					<li><button class="ui inverted button" id="login" style="margin:6px;">로그인</button></li>
-					<li><button class="ui inverted button" id="register" style="margin:6px;">회원가입</button></li>
+		                  <li class="active"><a href="index.jsp" data-nav-section="about"><span>팅이란?</span></a></li>
+		            <li><a href="Main_company_1_team.do" data-nav-section="team"><span>team</span></a></li>
+		            <li><a href="Tingtoday_0_main.do" data-nav-section="tingtoday"><span>팅투하자!</span></a></li>
+		            <li><a href="Premium_0_main.do" data-nav-section="premium"><span>프리미엄</span></a></li>
+		            <li><a href="Fun_0_main.do" data-nav-section="fun"><span>FUN</span></a></li>
+		            <li><a href="Client_2_Ting_main.do" data-nav-section="contact"><span>문의</span></a></li>
+					<li><button class="ui inverted teal button" id="login">로그인</button></li>
+					<li><button class="ui inverted teal button" id="register">회원가입</button></li>
 			      </ul>
 		        </div>
 		    </div>
 	</header>
 <!---------------------------------- header end ---------------------------------->
-
-
+<!-- style -->
+ <style>
+ h5 {
+ 	font-size:30px;
+ }
+ </style>
+<!-- style -->
 
 	<div id="fb-root" class=" fb_reset">
 		<div
@@ -129,27 +134,7 @@
             }
             }
 
-              function ftmc(event) {
-                ga('send', 'event', {
-                    eventCategory: 'linked',
-                    eventAction: 'ftm',
-                    eventLabel: 'link'
-                  });
-                }
-                function mtmc(event) {
-                  ga('send', 'event', {
-                      eventCategory: 'linked',
-                      eventAction: 'mtm',
-                      eventLabel: 'link'
-                    });
-                  }
-                  function mtfc(event) {
-                    ga('send', 'event', {
-                        eventCategory: 'linked',
-                        eventAction: 'mtf',
-                        eventLabel: 'link'
-                      });
-                    }
+       
 
       function cl1(){
         if (tt == 0){
@@ -521,8 +506,6 @@
           document.getElementById("bb1").style.display = "none";
           document.getElementById("det").innerHTML = list[rs]["detail"];
           document.getElementById("pct").innerHTML = list[rs]["percent"];
-          document.getElementById("lk").style.display = "block";
-          document.getElementById("lkf").style.display = "block";
           var iss = document.bb;
           iss.src = "";
         }
@@ -726,8 +709,6 @@
           document.getElementById("bb1").style.display = "none";
           document.getElementById("det").innerHTML = list[rs]["detail"];
           document.getElementById("pct").innerHTML = list[rs]["percent"];
-          document.getElementById("lk").style.display = "block";
-          document.getElementById("lkf").style.display = "block";
           var iss = document.bb;
           iss.src = "";
         }
@@ -969,14 +950,9 @@
           iss.src = "";
           document.getElementById("det").innerHTML = list[rs]["detail"];
           document.getElementById("pct").innerHTML = '';
-          document.getElementById("lk").style.display = "block";
-          document.getElementById("lkm").style.display = "block";
         }
 
         if(rs2 != 0 && tt == 6){
-          document.getElementById("lkf").style.display = "none";
-          document.getElementById("lkm").style.display = "none";
-          document.getElementById("lkrs").style.display = "block";
 
 
                 rr1 = rs % 32;
@@ -1045,37 +1021,8 @@
                   rst += 20;
                 }
 
-                if (rst<=31 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "앗! 당신과 당신 이상형은 성향이 그리 잘 맞지는 않네요. 만약 이상형과 만나게 된다면 마냥 즐겁지만은 않을 수 있겠어요. 하지만 서로를 향한 마음이 가장 중요한 거 알죠? 오랜 시간 서로를 알아가고 이해해 간다면 모두 극복할 수 있을 거랍니다. 힘내세요!"
-                }
-                if (rst>=32 && rst<=44 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "이런 당신 이상형과 당신은 별로 잘 맞지는 않겠는걸요? 다툼이 조금 잦을 수 있겠어요. 하지만 시간이 흐르고 조금 다르고 낯선 상대의 모습도 애정으로 볼 수 있게되면 이런 궁합은 의미가 없어질거예요. 걱정하지 마세요!"
-                }if (rst>=45 &&rst<=69 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "당신 이상형과 당신은 재미있는 커플이 되겠네요. 사소한 걸로 티격태격 할수도 있지만 분명 서로를 향한 애정에서 나오는 거군요. 혹시 속상한 일이 있다면 바로바로 서로에게 말하기로 해요. 그렇다면 둘은 계속 좋은 연인이 될 거예요!"
-                }if (rst>=70 &&rst<=84 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "오! 이 둘은 꽤나 잘 맞는 연인이 되겠군요! 서로 조금 다르지만 그걸 보완하며 시너지가 날 거에요. 서로에게 물들어가는 과정에서 아마 연애의 재미를 찾게 될 거랍니다. 상대를 아끼는 마음만 간직하고 있다면 둘의 사이에 걱정은 없어요!"
-                }if (rst>=85 &&rst<=97 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "당신과 당신의 이상형은 정말 잘 맞는 사이네요! 서로가 서로의 이상형이군요. 만나는 순간 서로의 매력에 푹 빠지게 될거예요. 한눈 팔 틈도 없겠군요. 둘은 연인이 되었을 때 각각 더 빛나게 될 거예요. 그러니까 만나기만 하면 돼요! 어서 찾아봐요!"
-                }if (rst>=98 && stt == 0){
-                  document.getElementById("lrs").innerHTML = "세상에! 둘은 천생 연분이에요. 전생에도 알콩달콩한 부부였네요. 이 사람, 놓치면 안 돼요. 이게 바로 운명이라구요! 둘은 이제 만나기만 하면 해피엔딩 보장이에요. 서로만 있다면 다른 사람은 눈에 들어오지도 않겠군요. 자, 빨리 당신의 이상형을 찾아서 쟁취하세요!"
-                }
+           
 
-                if (rst<=31 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "이런.. 둘은 잘 맞기 아주 어려운 조합이네요. 그럼에도 불구하고 여전히 관계를 이어오고 있다면 정말 대단해요! 서로가 서로를 많이 배려하고 아끼는게 분명합니다. 상대에게 고마운 마음을 한 번 표해보는게 어때요?"
-                }
-                if (rst>=32 && rst<=44 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "앗, 둘은 성향이 그렇게 잘 맞는 조합은 아니네요. 하지만 걱정마세요. 그럼에도 지금까지 좋은 사이를 유지해 왔다는건 서로를 향한 신뢰가 높기 때문이니까요. 상대에 대한 깊은 마음이 조합을 이겨냈어요!"
-                }if (rst>=45 &&rst<=69 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "여러분은 자주 티격태격하는 사이네요? 하지만 모두 애정에서 나오는 게 분명하군요. 가끔 안 맞는 점이 있기도 하지만 그럼에도 함께할 때 더 즐겁네요! 모든게 잘 맞을 수는 없잖아요! 때로는 서로 다른 점이 더 매력적으로 보이기도 하죠."
-                }if (rst>=70 &&rst<=84 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "여러분은 잘 맞는 관계네요. 조금 다른 부분 정도야 익숙해지면 웃으며 넘어가게 되죠. 오히려 그런게 친해지는 재미고요! 서로를 향한 따뜻한 마음만 계속 가지고 있다면 여러분의 관계를 이어가는데 문제 없을 거예요! 잘 지내세요!"
-                }if (rst>=85 &&rst<=97 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "여러분은 정말 잘 맞는 사이네요! 무려 팀과제를 같이 해도 문제 없이 즐거울 정도의 조합이에요. 성향도 취향도 아주 잘 맞는 둘이네요. 여러분은 함께 할 때 시너지가 나는 관계에요. 이 소중한 인연을 꼭 잘 이어가세요!"
-                }if (rst>=98 && stt == 1){
-                  document.getElementById("lrs").innerHTML = "어머! 둘은 평생 함께할 운명이에요. 전생에도 알콩달콩한 부부였네요. 놀라울 정도로 잘 맞는 사이랍니다. 이 사람, 놓치면 안 돼요. 이게 바로 운명이라구요! 서로만 있다면 다른 사람들은 필요 없어요. 그저 세상 즐거운걸요! 오래 행복하세요!"
-                }
-
-                document.getElementById("lpct").innerHTML = rst + "%";
 
                 var rssp = document.rsp1;
                 if (rs % 64 == 0){
@@ -1493,9 +1440,6 @@
         iss.src = "img/fq.png";
         document.getElementById("aa1").style.display = "block";
         document.getElementById("bb1").style.display = "block";
-        document.getElementById("lk").style.display = "none";
-        document.getElementById("lkm").style.display = "none";
-        document.getElementById("lkf").style.display = "none";
         document.getElementById("det").innerHTML = '';
         document.getElementById("pct").innerHTML = '';
         var rpp = document.rsp;
@@ -1517,9 +1461,6 @@
         iss.src = "img/fq.png";
         document.getElementById("aa1").style.display = "block";
         document.getElementById("bb1").style.display = "block";
-        document.getElementById("lk").style.display = "none";
-        document.getElementById("lkm").style.display = "none";
-        document.getElementById("lkf").style.display = "none";
         document.getElementById("det").innerHTML = '';
         document.getElementById("pct").innerHTML = '';
         var rpp = document.rsp;
@@ -1540,9 +1481,6 @@
         iss.src = "img/fq.png";
         document.getElementById("aa1").style.display = "block";
         document.getElementById("bb1").style.display = "block";
-        document.getElementById("lk").style.display = "none";
-        document.getElementById("lkm").style.display = "none";
-        document.getElementById("lkf").style.display = "none";
         document.getElementById("det").innerHTML = '';
         document.getElementById("pct").innerHTML = '';
         var rpp = document.rsp;
@@ -1594,46 +1532,7 @@
 	</div>
 	<br>
 	<br>
-	<div id="lkrs" style="display: none">
 
-		<div class="container">
-			<div class="jumbotron">
-				<div class="text-center">
-					<h2 id="lqs">당신의 궁합은</h2>
-					<h1 id="lpct"></h1>
-					<h2 id="lnd">입니다.</h2>
-
-				</div>
-				<div class="row">
-					<div class="text-center">
-						<br>
-						<br>
-						<div class="col-lg-6">
-
-							<img name="rsp1" src="" height="200" class="img-rounded">
-						</div>
-						<br>
-						<div class="text-left">
-							<h5 id="lrs"></h5>
-						</div>
-						<br>
-						<div class="col-lg-6">
-							<img name="rsp2" src="" height="200" class="img-rounded">
-							<div class="text-left">
-								<h5 id="det"></h5>
-								<h5 id="pct"></h5>
-							</div>
-							<br>
-							<br>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-
-	</div>
 
 
 	<script type="text/javascript">
@@ -1776,10 +1675,6 @@
 <div class="options__ouvgd text-center">
 	<a href="FUN_2_test2.jsp" class="ui inverted red button" style="width:400px; font-size:20px;">처음으로</a>
 </div><br><br>
-
-
-
-
 
 
 
