@@ -23,8 +23,7 @@
 			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 			  crossorigin="anonymous"></script>
 			<script src="resources/js/semantic.min.js"></script>
-
-	</head>
+			<!-- 커밋 테스트 -->
 
 	</head>
 

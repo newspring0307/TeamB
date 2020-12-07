@@ -25,18 +25,6 @@
 			  crossorigin="anonymous"></script>
 			<script src="js/semantic.min.js"></script>
 			
-			
-			
-			
-			<head>
-   
-
-	
-	
-
-
-    
-
 	</head>
 
 
