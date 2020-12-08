@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ê¸°ë³¸í¼	</title>
+<title>±âº»Æû	</title>
 
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
@@ -35,14 +35,14 @@
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="index.jsp" data-nav-section="about"><span>íŒ…ì´ëž€?</span></a></li>
+		            <li class="active"><a href="index.jsp" data-nav-section="about"><span>ÆÃÀÌ¶õ?</span></a></li>
 		            <li><a href="Main_company_1_team.do" data-nav-section="team"><span>team</span></a></li>
-		            <li><a href="Tingtoday_0_main.do" data-nav-section="tingtoday"><span>íŒ…íˆ¬í•˜ìž!</span></a></li>
-		            <li><a href="Premium_0_main.do" data-nav-section="premium"><span>í”„ë¦¬ë¯¸ì—„</span></a></li>
+		            <li><a href="Tingtoday_0_main.do" data-nav-section="tingtoday"><span>ÆÃÅõÇÏÀÚ!</span></a></li>
+		            <li><a href="Premium_0_main.do" data-nav-section="premium"><span>ÇÁ¸®¹Ì¾ö</span></a></li>
 		            <li><a href="Fun_0_main.do" data-nav-section="fun"><span>FUN</span></a></li>
-		            <li><a href="Client_2_Ting_main.do" data-nav-section="contact"><span>ë¬¸ì˜</span></a></li>
-					<li><button class="ui inverted teal button" id="login">ë¡œê·¸ì¸</button></li>
-					<li><button class="ui inverted teal button" id="register">íšŒì›ê°€ìž…</button></li>
+		            <li><a href="Client_2_Ting_main.do" data-nav-section="contact"><span>¹®ÀÇ</span></a></li>
+					<li><button class="ui inverted teal button" id="login">·Î±×ÀÎ</button></li>
+					<li><button class="ui inverted teal button" id="register">È¸¿ø°¡ÀÔ</button></li>
 			      </ul>
 		        </div>
 		    </div>
@@ -57,7 +57,7 @@
 					<h2 class="to-animate">FUN</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>ë‚˜ë„ ëª°ëžë˜ ë‚˜ì˜ ì—°ì•  ìŠ¤íƒ€ì¼ê³¼ ì´ìƒí˜•ì€?</h3>
+							<h3>³ªµµ ¸ô¶ú´ø ³ªÀÇ ¿¬¾Ö ½ºÅ¸ÀÏ°ú ÀÌ»óÇüÀº?</h3>
 						</div>
 					</div>
 				</div>
@@ -72,9 +72,9 @@
 								<div class="overlay-darker"></div>
 								<div class="overlay"></div>
 								<div class="fh5co-text">
-									<h2>ì—°ì• ì‹¬ë¦¬ Test</h2>
+									<h2>¿¬¾Ö½É¸® Test</h2>
 									<br />
-									<p>ë‚˜ë„ ëª°ëžë˜ ë‚˜ì˜ ì—°ì• ì‹¬ë¦¬</p>
+									<p>³ªµµ ¸ô¶ú´ø ³ªÀÇ ¿¬¾Ö½É¸®</p>
 									<br />
 									<p>
 										<a href="FUN_2_test1.do" class="btn btn-primary">Click</a>
@@ -88,7 +88,7 @@
 								<div class="fh5co-text"> 
 									<h2>MBTI</h2>
 									<br />
-									<p>ìž¬ë¯¸ë¡œ ì•Œì•„ë³´ëŠ” ë‚˜ì˜ ì„±ê²© ìœ í˜•</p>
+									<p>Àç¹Ì·Î ¾Ë¾Æº¸´Â ³ªÀÇ ¼º°Ý À¯Çü</p>
 									<br />
 									<p>
 										<a href="FUN_1_mbti_1_my.do" 
@@ -101,9 +101,9 @@
 								<div class="overlay-darker"></div>
 								<div class="overlay"></div>
 								<div class="fh5co-text">
-									<h2>ì´ìƒí˜• ì°¾ê¸°</h2>
+									<h2>ÀÌ»óÇü Ã£±â</h2>
 									<br />
-									<p>ë‚˜ì—ê²Œ ì–´ìš¸ë¦¬ëŠ” ìƒëŒ€ëŠ”?</p>
+									<p>³ª¿¡°Ô ¾î¿ï¸®´Â »ó´ë´Â?</p>
 									<br />
 									<p>
 										<a href="FUN_2_test2.do" class="btn btn-primary">Click</a>
@@ -125,19 +125,19 @@
         <div class="three wide column">
           <h4 class="ui inverted header">company</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">ting Team</a>
-            <a href="#" class="item">tingì´ëž€?</a>
-            <a href="#" class="item">premium</a>
-            <a href="#" class="item">ë¬¸ì˜í•˜ê¸°</a>
+            <a href="Main_company_1_team.do" class="item">ting Team</a>
+            <a href="index.jsp" class="item">tingÀÌ¶õ?</a>
+            <a href="Premium_0_main.do" class="item">premium</a>
+            <a href="Client_2_Ting_main.do" class="item">¹®ÀÇÇÏ±â</a>
           </div>
         </div>
         <div class="three wide column">
           <h4 class="ui inverted header">Services</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">ting Today</a>
-            <a href="#" class="item">MBTI</a>
-            <a href="#" class="item">ì—°ì• í…ŒìŠ¤íŠ¸</a>
-            <a href="#" class="item">ì´ìƒí˜•í…ŒìŠ¤íŠ¸</a>
+            <a href="Tingtoday_0_main.do" class="item">ting Today</a>
+            <a href="FUN_1_mbti_1_my.do" class="item">MBTI</a>
+            <a href="FUN_2_test1.do" class="item">¿¬¾ÖÅ×½ºÆ®</a>
+            <a href="FUN_2_test2.do" class="item">ÀÌ»óÇüÅ×½ºÆ®</a>
           </div>
         </div>
 
@@ -145,7 +145,7 @@
           <h4 class="ui inverted header">ting Info</h4>
           <ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address " >
-						<i class="icon-home" ></i>&nbsp;ë¶€ì²œì‹œ ì†Œì‚¬êµ¬ ì‹¬ê³¡ë³¸ë™</li>
+						<i class="icon-home" ></i>&nbsp;ºÎÃµ½Ã ¼Ò»ç±¸ ½É°îº»µ¿</li>
 						<li><i class="icon-phone"></i>&nbsp;(123) 456-789</li>
 						<li><i class="icon-envelope"></i>&nbsp;ting_manager@gmail.com</li>
 			</ul>
