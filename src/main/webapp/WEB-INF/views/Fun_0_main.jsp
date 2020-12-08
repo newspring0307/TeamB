@@ -31,7 +31,7 @@
 	<header style="background: linear-gradient(-135deg, #52D3AA, #54FFFF) fixed;">
 			<div class="container">
 			   <div class="navbar-header">
-		         <a class="navbar-brand" href="index.html" style="color:#1C1185">ting</a> 
+		         <a class="navbar-brand" href="index.jsp" style="color:#1C1185">ting</a> 
 		       </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -77,7 +77,7 @@
 									<p>나도 몰랐던 나의 연애심리</p>
 									<br />
 									<p>
-										<a href="FUN_2_test1.jsp" class="btn btn-primary">Click</a>
+										<a href="FUN_2_test1.do" class="btn btn-primary">Click</a>
 									</p>
 								</div>
 							</div>
@@ -91,7 +91,7 @@
 									<p>재미로 알아보는 나의 성격 유형</p>
 									<br />
 									<p>
-										<a href="FUN_1_mbti_1_my.jsp" 
+										<a href="FUN_1_mbti_1_my.do" 
 											class="btn btn-primary">Click</a>
 									</p>
 								</div>
@@ -106,7 +106,7 @@
 									<p>나에게 어울리는 상대는?</p>
 									<br />
 									<p>
-										<a href="FUN_2_test2.jsp" class="btn btn-primary">Click</a>
+										<a href="FUN_2_test2.do" class="btn btn-primary">Click</a>
 									</p>
 								</div>
 							</div>							
