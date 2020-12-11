@@ -81,7 +81,7 @@
 	  </ul>
     </div>
         <div class="field" style="padding-top: 15px">
-           <a class="ui fluid large teal submit button" href="#" onclick="location.href='Client_0_main.jsp'">확인</a>
+           <a class="ui fluid large teal submit button" href="#" onclick="location.href='Client_0_main.do'">확인</a>
            <!-- <div class="ui fluid large teal submit button" id="mypage_pwreset_save">변경하기</div> -->
       </div>
 	</div>
